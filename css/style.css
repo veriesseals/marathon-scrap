@@ -4,3 +4,13 @@
 
 /* Nav Menu */
 /* -------------------------------------------------------- */
+#topNav {
+    display: flex;
+}
+
+/* .top-Nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    list-style: none;
+} */
