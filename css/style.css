@@ -2,15 +2,23 @@
     outline: red 1px dotted;
 }
 
+
+/* .logo {
+    margin: auto;
+    width: 50%;
+  } */
+
+
 /* Nav Menu */
 /* -------------------------------------------------------- */
+.headerNav {
+    display: flex;
+
+}
 #topNav {
     display: flex;
+    list-style: none;
+    
+    justify-content: space-between;
 }
 
-/* .top-Nav {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10%;
-    list-style: none;
-} */
