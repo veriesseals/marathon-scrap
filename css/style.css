@@ -3,14 +3,8 @@
 } */
 
 
-/* .logo {
-    margin: auto;
-    width: 50%;
-  } */
-
-
 /* Nav Menu */
-/* ---------------------------------------------------- */
+/* --------------------------------------------------- */
 .headerNav {
     display: flex;
 }
@@ -27,7 +21,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -40,6 +34,11 @@
     margin: auto;
     width: 50%;
 }
+
+/* Header */
+/* ---------------------------------------------------- */
+
+
 
 /* Font */
 /* ---------------------------------------------------- */
@@ -133,8 +132,9 @@
 
 /* Media Querys for Sizes */
 /* ---------------------------------------------------- */
-/* @media screen and (min-width: 880px) {
-    .wrapper {
-      display: block;
+@media (min-width: 480px) {
+    .welcome-Header {
+      text-align: center;
     }
-} */
+}
+
